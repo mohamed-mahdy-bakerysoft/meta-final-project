@@ -1,4 +1,5 @@
 import React from 'react';
+import picture from '../assets/image/heading_logo.jpg';
 
 
 function HeroSection() {
@@ -11,7 +12,7 @@ function HeroSection() {
                 <button className="button">Reserve a Table</button>
             </div>
             <div className="hero-image">
-                <img src="https://via.placeholder.com/500x400?text=Delicious+Mediterranean+Dish" alt="Delicious Mediterranean Dish" />
+                <img src= {picture} alt="Delicious Mediterranean Dish" style={{height : '100vh'}}/>
             </div>
         </section>
     );

@@ -1,11 +1,11 @@
 import React from 'react';
-
+import logo from '../assets/image/logo.png';
 
 function Header() {
     return (
         <header className="header">
             <div className="logo">
-                <img src="https://via.placeholder.com/50" alt="Little Lemon Logo" style={{ marginRight: '10px' }} />
+                <img src={logo} alt="Little Lemon Logo" style={{ height: '100px', marginRight: '20px' }} />
                 Little Lemon
             </div>
             <nav>

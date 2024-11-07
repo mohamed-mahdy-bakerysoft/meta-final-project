@@ -1,5 +1,7 @@
 import React from 'react';
-
+import greek_sald from '../assets/image/greek_salad.jpg';
+import bruschetta from '../assets/image/bruschetta.jpg';
+import lemon from '../assets/image/lemon_desert.jpg';
 
 function Highlights() {
     return (
@@ -8,7 +10,7 @@ function Highlights() {
             <div className="specials-container">
                 <div className="special">
                     <div className="dish-image">
-                        <img src="https://via.placeholder.com/300x200?text=Greek+Salad" alt="Greek Salad" />
+                        <img src= {greek_sald} alt="Greek Salad" style={{height : '250px'}}/>
                     </div>
                     <h3>Greek Salad</h3>
                     <p>Fresh salad with cucumbers, tomatoes, olives, and feta cheese.</p>
@@ -17,7 +19,7 @@ function Highlights() {
                 </div>
                 <div className="special">
                     <div className="dish-image">
-                        <img src="https://via.placeholder.com/300x200?text=Bruschetta" alt="Bruschetta" />
+                        <img src={bruschetta} alt="Bruschetta" style={{height : '250px'}} />
                     </div>
                     <h3>Bruschetta</h3>
                     <p>Grilled bread garnished with garlic, tomatoes, and basil.</p>
@@ -26,7 +28,7 @@ function Highlights() {
                 </div>
                 <div className="special">
                     <div className="dish-image">
-                        <img src="https://via.placeholder.com/300x200?text=Lemon+Dessert" alt="Lemon Dessert" />
+                        <img src= {lemon} alt="Lemon Dessert"  style={{height : '250px'}}/>
                     </div>
                     <h3>Lemon Dessert</h3>
                     <p>Tangy lemon-flavored dessert with a smooth, creamy texture.</p>
